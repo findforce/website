@@ -81,7 +81,9 @@
       }
     </script>
 
-    <link rel="stylesheet" crossorigin href="/assets/css/index-17zLL-SZ.css">
+    <script type="module" crossorigin src="/assets/js/main-DmLuPt15.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/js/styles-BDTnQHA7.js">
+    <link rel="stylesheet" crossorigin href="/assets/css/styles-xqyF9sRc.css">
   <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body class="bg-gray-50 text-gray-900">
     <!-- Notification Bar -->
@@ -794,57 +796,59 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <div class="mb-4 md:mb-0">
-            <svg
-              width="120"
-              height="28"
-              viewBox="0 0 120 28"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect
-                x="2"
-                y="2"
-                width="24"
-                height="24"
-                rx="6"
-                fill="url(#footerGradient)"
-              />
-              <circle cx="14" cy="14" r="5.5" fill="white" />
-              <text
-                x="14"
-                y="17"
-                text-anchor="middle"
-                fill="#2563eb"
-                font-family="system-ui, -apple-system, sans-serif"
-                font-size="8"
-                font-weight="700"
+            <a href="/">
+              <svg
+                width="120"
+                height="28"
+                viewBox="0 0 120 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                @
-              </text>
-              <text
-                x="34"
-                y="19"
-                fill="#0f172a"
-                font-family="system-ui, -apple-system, sans-serif"
-                font-size="14"
-                font-weight="700"
-                letter-spacing="-0.02em"
-              >
-                FindForce
-              </text>
-              <defs>
-                <linearGradient
-                  id="footerGradient"
-                  x1="0%"
-                  y1="0%"
-                  x2="100%"
-                  y2="100%"
+                <rect
+                  x="2"
+                  y="2"
+                  width="24"
+                  height="24"
+                  rx="6"
+                  fill="url(#footerGradient)"
+                />
+                <circle cx="14" cy="14" r="5.5" fill="white" />
+                <text
+                  x="14"
+                  y="17"
+                  text-anchor="middle"
+                  fill="#2563eb"
+                  font-family="system-ui, -apple-system, sans-serif"
+                  font-size="8"
+                  font-weight="700"
                 >
-                  <stop offset="0%" style="stop-color: #3b82f6" />
-                  <stop offset="100%" style="stop-color: #1d4ed8" />
-                </linearGradient>
-              </defs>
-            </svg>
+                  @
+                </text>
+                <text
+                  x="34"
+                  y="19"
+                  fill="#0f172a"
+                  font-family="system-ui, -apple-system, sans-serif"
+                  font-size="14"
+                  font-weight="700"
+                  letter-spacing="-0.02em"
+                >
+                  FindForce
+                </text>
+                <defs>
+                  <linearGradient
+                    id="footerGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop offset="0%" style="stop-color: #3b82f6" />
+                    <stop offset="100%" style="stop-color: #1d4ed8" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </a>
           </div>
           <div class="flex space-x-6 text-sm text-gray-600">
             <a href="/privacy" class="hover:text-gray-900">Privacy</a>
@@ -861,62 +865,5 @@
       </div>
     </footer>
 
-    <script>
-      // PWA Service Worker Registration
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("/sw.js");
-        });
-      }
-
-      // Smooth scroll to signup
-      function scrollToSignup() {
-        document
-          .getElementById("signup")
-          .scrollIntoView({ behavior: "smooth" });
-      }
-
-      // Form submission
-      document
-        .getElementById("betaForm")
-        .addEventListener("submit", async (e) => {
-          e.preventDefault();
-          const button = e.target.querySelector('button[type="submit"]');
-          const originalText = button.textContent;
-
-          button.textContent = "Securing Your Spot...";
-          button.disabled = true;
-
-          // Simulate API call
-          setTimeout(() => {
-            button.textContent = "✓ You're In! Check Your Email";
-            button.style.backgroundColor = "#10b981";
-
-            // Show success message
-            setTimeout(() => {
-              alert(
-                "Welcome to FindForce Beta! Check your email for next steps.",
-              );
-              e.target.reset();
-              button.textContent = originalText;
-              button.disabled = false;
-              button.style.backgroundColor = "";
-            }, 1500);
-          }, 2000);
-        });
-
-      // Add countdown timer for urgency
-      let spotsLeft = 73;
-      setInterval(() => {
-        if (Math.random() > 0.7 && spotsLeft > 50) {
-          spotsLeft--;
-          document.querySelectorAll(".text-orange-600").forEach((el) => {
-            if (el.textContent.includes("Beta Spots Left")) {
-              el.textContent = spotsLeft;
-            }
-          });
-        }
-      }, 30000); // Update every 30 seconds
-    </script>
   </body>
 </html>
