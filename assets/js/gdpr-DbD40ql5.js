@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-YP0FEG5d.js";/* empty css               */import"./hubspot-BvpWQSUB.js";window.scrollToSignup=function(){var o=document.getElementById("signup");o?o.scrollIntoView({behavior:"smooth"}):window.location.href="/#signup"};
