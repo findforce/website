@@ -1,0 +1,75 @@
+{
+  "name": "FindForce - Professional Email Verification",
+  "short_name": "FindForce",
+  "description": "Verify professional email accuracy with 95% deliverability. Chrome extension for sales teams.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/findforce-192px.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/findforce-512px.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/findforce-32px.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/findforce-16px.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Install Extension",
+      "short_name": "Install",
+      "description": "Install FindForce Chrome Extension",
+      "url": "https://chromewebstore.google.com/detail/ilebiijfdkmnnhkngehmiggngoeoenbg",
+      "icons": [
+        {
+          "src": "/findforce-192px.svg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "chrome_web_store",
+      "url": "https://chromewebstore.google.com/detail/ilebiijfdkmnnhkngehmiggngoeoenbg",
+      "id": "ilebiijfdkmnnhkngehmiggngoeoenbg"
+    }
+  ],
+  "prefer_related_applications": true,
+  "dir": "ltr",
+  "lang": "en-US",
+  "screenshots": [
+    {
+      "src": "/screenshot-verify-email.png",
+      "sizes": "2832x1770",
+      "type": "image/png",
+      "label": "Verify Email Screenshot"
+    },
+    {
+      "src": "/sscreenshot-save-mails.png",
+      "sizes": "2815x1760",
+      "type": "image/png",
+      "label": "Save Emails Screenshot"
+    }
+  ],
+  "display_override": ["window-controls-overlay", "minimal-ui"]
+}
