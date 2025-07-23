@@ -1,1 +1,0 @@
-import"./hubspot-Biq9Wh9N.js";/* empty css               */import"./vendor-Dyy25WtN.js";window.scrollToSignup=function(){var o=document.getElementById("signup");o?o.scrollIntoView({behavior:"smooth"}):window.location.href="/#signup"};

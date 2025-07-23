@@ -1,0 +1,20 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="180" height="180" rx="40" fill="url(#appleTouchBg)"/>
+
+  <circle cx="90" cy="90" r="35" fill="white" fill-opacity="0.95"/>
+
+  <text x="90" y="108" text-anchor="middle" fill="#2563eb" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700">@</text>
+
+  <text x="90" y="145" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600" letter-spacing="0.5px">FINDFORCE</text>
+
+  <rect x="0" y="0" width="180" height="180" rx="40" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2"/>
+
+  <defs>
+    <linearGradient id="appleTouchBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="30%" style="stop-color:#2563eb"/>
+      <stop offset="70%" style="stop-color:#1d4ed8"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+  </defs>
+</svg>
