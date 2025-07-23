@@ -14,7 +14,7 @@
 
     <!-- Main headline -->
     <text x="0" y="220" fill="white" font-family="Inter, sans-serif" font-size="68" font-weight="800" letter-spacing="-0.02em">Find Verified B2B Emails</text>
-    <text x="0" y="290" fill="white" font-family="Inter, sans-serif" font-size="68" font-weight="800" letter-spacing="-0.02em">in Seconds</text>
+    <text x="0" y="290" fill="white" font-family="Inter, sans-serif" font-size="68" font-weight="800" letter-spacing="-0.02em">with 1 Click</text>
 
     <!-- Subtitle -->
     <text x="0" y="350" fill="rgba(255, 255, 255, 0.9)" font-family="Inter, sans-serif" font-size="32" font-weight="500">Stop wasting hours hunting for emails.</text>
@@ -34,7 +34,7 @@
   </g>
 
   <!-- Chrome Web Store badge positioned right -->
-  <g transform="translate(900, 300)">
+  <g transform="translate(900, 425)">
     <rect x="0" y="0" width="220" height="80" rx="15" fill="rgba(255, 255, 255, 0.15)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="2"/>
     <text x="110" y="30" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="500">Available on</text>
     <text x="110" y="55" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="18" font-weight="700">Chrome Web Store</text>
