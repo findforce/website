@@ -65,7 +65,7 @@
       "label": "Verify Email Screenshot"
     },
     {
-      "src": "/sscreenshot-save-mails.png",
+      "src": "/screenshot-save-mails.png",
       "sizes": "2815x1760",
       "type": "image/png",
       "label": "Save Emails Screenshot"

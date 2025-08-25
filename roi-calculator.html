@@ -1,1 +1,124 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Email Verification ROI Calculator - FindForce</title><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f8fafc;color:#1e293b;line-height:1.6}.container{max-width:1200px;margin:0 auto;padding:2rem}.header{text-align:center;margin-bottom:3rem}.logo{display:inline-flex;align-items:center;gap:.5rem;margin-bottom:1rem}.logo-icon{width:40px;height:40px;background:linear-gradient(135deg,#3b82f6 0,#1d4ed8 100%);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px}h1{font-size:2.5rem;font-weight:800;color:#0f172a;margin-bottom:.5rem}.subtitle{font-size:1.25rem;color:#64748b}.calculator-wrapper{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-bottom:3rem}@media (max-width:768px){.calculator-wrapper{grid-template-columns:1fr}}.input-section{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.1)}.results-section{background:linear-gradient(135deg,#3b82f6 0,#1d4ed8 100%);padding:2rem;border-radius:12px;color:#fff}.form-group{margin-bottom:1.5rem}label{display:block;font-weight:600;margin-bottom:.5rem;font-size:.875rem;text-transform:uppercase;letter-spacing:.05em}input[type=number],input[type=range]{width:100%;padding:.75rem;border:2px solid #e2e8f0;border-radius:8px;font-size:1rem;transition:border-color .2s}input[type=number]:focus{outline:0;border-color:#3b82f6}.range-wrapper{position:relative}.range-value{position:absolute;right:0;top:-1.5rem;font-weight:600;color:#3b82f6}input[type=range]{-webkit-appearance:none;height:6px;background:#e2e8f0;border-radius:3px;padding:0}input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;background:#3b82f6;border-radius:50%;cursor:pointer}.results-section h2{font-size:1.75rem;margin-bottom:2rem}.metric{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(255,255,255,.2)}.metric:last-child{border-bottom:none}.metric-label{font-size:.875rem;opacity:.9;margin-bottom:.25rem}.metric-value{font-size:2rem;font-weight:800}.metric-detail{font-size:.875rem;opacity:.8;margin-top:.25rem}.cta-section{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.1);text-align:center}.cta-section h3{font-size:1.5rem;margin-bottom:1rem}.cta-button{display:inline-block;background:linear-gradient(135deg,#3b82f6 0,#1d4ed8 100%);color:#fff;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:600;transition:transform .2s,box-shadow .2s;margin-top:1rem}.cta-button:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(59,130,246,.4)}.warning{background:#fef2f2;border:1px solid #fecaca;padding:1rem;border-radius:8px;margin-top:1rem;color:#991b1b}.success{background:#f0fdf4;border:1px solid #bbf7d0;padding:1rem;border-radius:8px;margin-top:1rem;color:#166534}</style><link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"><link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head><body><div class="container"><header class="header"><div class="logo"><div class="logo-icon">@</div><span style="font-size:1.5rem;font-weight:700">FindForce</span></div><h1>Email Verification ROI Calculator</h1><p class="subtitle">Discover how much bad email data costs your sales team. Only 62% of submitted emails are valid.</p></header><div class="calculator-wrapper"><div class="input-section"><h2 style="margin-bottom:2rem">Your Current Situation</h2><div class="form-group"><label for="sdr-count">Number of SDRs</label> <input type="number" id="sdr-count" value="10" min="1" max="1000"></div><div class="form-group"><label for="sdr-salary">Average SDR Monthly Cost ($)</label> <input type="number" id="sdr-salary" value="8000" min="3000" max="20000"></div><div class="form-group"><label for="bounce-rate">Current Email Bounce Rate</label><div class="range-wrapper"><span class="range-value" id="bounce-rate-value">20%</span> <input type="range" id="bounce-rate" value="20" min="5" max="40" step="1"></div></div><div class="form-group"><label for="time-waste">Hours Per Week on Bad Data Tasks</label><div class="range-wrapper"><span class="range-value" id="time-waste-value">11 hrs</span> <input type="range" id="time-waste" value="11" min="5" max="20" step="1"></div></div><div class="form-group"><label for="contacts-month">Contacts Processed Monthly</label> <input type="number" id="contacts-month" value="1000" min="100" max="10000" step="100"></div></div><div class="results-section"><h2>Your Potential Savings</h2><div class="metric"><div class="metric-label">Monthly Cost of Bad Data</div><div class="metric-value" id="monthly-cost">$21,840</div><div class="metric-detail">Across your entire team</div></div><div class="metric"><div class="metric-label">Annual Revenue at Risk</div><div class="metric-value" id="revenue-risk">$2.0M</div><div class="metric-detail">From poor deliverability</div></div><div class="metric"><div class="metric-label">Time Recovered Monthly</div><div class="metric-value" id="time-saved">440 hrs</div><div class="metric-detail">Equal to 2.75 full-time SDRs</div></div><div class="metric"><div class="metric-label">ROI with Email Verification</div><div class="metric-value" id="roi">12:1</div><div class="metric-detail">Payback in <span id="payback">3</span> weeks</div></div></div></div><div class="cta-section"><h3>Ready to Recover Your Team's Lost Productivity?</h3><p style="color:#64748b;margin-bottom:1rem">Join companies reducing bounce rates by 95% and achieving $750 ROI per dollar spent on verification</p><div id="risk-message" class="warning" style="display:none"><strong>⚠️ Critical Risk:</strong> Your bounce rate exceeds Gmail/Yahoo's 0.3% threshold. You're at risk of sender reputation damage and ESP blocking.</div><div id="success-message" class="success" style="display:none"><strong>✓ Strong Opportunity:</strong> You could save <span id="savings-highlight"></span> monthly with proper email verification.</div><a href="https://findforce.io?utm_source=roi_calculator&utm_medium=landing_page&utm_campaign=free_trial" class="cta-button">Start Free Trial - No Credit Card Required</a></div></div><script>function calculateROI(){var e=parseInt(document.getElementById("sdr-count").value),t=parseInt(document.getElementById("sdr-salary").value),n=parseInt(document.getElementById("bounce-rate").value),a=parseInt(document.getElementById("time-waste").value),l=e*t*(4*a/160),o=438750*e*(n>2?.169:.05),u=e*a*4*.85,d=parseInt(document.getElementById("contacts-month").value)/1e3*8,c=.73*l,m=Math.round(c/d),s=Math.ceil(d/(c/4));document.getElementById("monthly-cost").textContent="$"+Math.round(l).toLocaleString(),document.getElementById("revenue-risk").textContent="$"+(o/1e6).toFixed(1)+"M",document.getElementById("time-saved").textContent=Math.round(u).toLocaleString()+" hrs",document.getElementById("roi").textContent=m+":1",document.getElementById("payback").textContent=s;var r=document.getElementById("risk-message"),i=document.getElementById("success-message");n>2?(r.style.display="block",i.style.display="none"):(r.style.display="none",i.style.display="block",document.getElementById("savings-highlight").textContent="$"+Math.round(c).toLocaleString())}function updateRangeValue(e,t,n){document.getElementById(e).addEventListener("input",function(e){document.getElementById(t).textContent=e.target.value+n,calculateROI()})}updateRangeValue("bounce-rate","bounce-rate-value","%"),updateRangeValue("time-waste","time-waste-value"," hrs"),document.querySelectorAll("input").forEach(function(e){e.addEventListener("input",calculateROI)}),calculateROI()</script></body></html>
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Email Verification ROI Calculator - FindForce</title><!-- Preload critical resources --><link rel="preload" href="data:text/css;base64,KiB7bWFyZ2luOjA7cGFkZGluZzowO2JveC1zaXppbmc6Ym9yZGVyLWJveH0=" as="style" onload="this.onload=null;this.rel='stylesheet'"><!-- DNS prefetch for external domains --><link rel="dns-prefetch" href="//cap.so"><link rel="dns-prefetch" href="//chromewebstore.google.com"><!-- Preconnect to critical third parties --><link rel="preconnect" href="https://cap.so" crossorigin><!-- SEO Meta Tags --><meta name="description" content="Discover how much bad email data costs your sales team. Only 62% of submitted emails are valid. Calculate your potential savings with our ROI calculator."><meta name="keywords" content="chrome extension launch, new sales tool, email finder chrome store, early adopter sales software"><meta name="robots" content="index, follow"><link rel="canonical" href="https://findforce.io/roi-calculator"><!-- Enhanced Open Graph --><meta property="og:title" content="FindForce Just Dropped on Chrome Store - Be First"><meta property="og:description" content="The waiting is over. Get 95% email accuracy or we refund you. No BS."><meta property="og:image" content="https://findforce.io/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:type" content="website"><meta property="og:url" content="https://findforce.io/roi-calculator.html"><meta property="og:site_name" content="FindForce"><!-- Enhanced Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Email Verification ROI Calculator - FindForce"><meta name="twitter:description" content="Discover how much bad email data costs your sales team. Only 62% of submitted emails are valid. Calculate your potential savings with our ROI calculator."><meta name="twitter:image" content="https://findforce.io/og-image.png"><meta name="twitter:site" content="@meysamazing"><meta name="twitter:creator" content="@meysamazing"><!-- Favicon with multiple sizes --><link rel="icon" type="image/png" sizes="32x32" href="/findforce-32px.png"><link rel="icon" type="image/png" sizes="16x16" href="/findforce-16px.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><!-- Structured Data --><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "FindForce",
+        "description": "Chrome extension for finding and verifying business emails with 95% accuracy guarantee",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Chrome",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Developer Friendly OÜ"
+        }
+      }
+    </script><link rel="stylesheet" href="/assets/benchmark-report.BYM1-UAI.css">
+<link rel="stylesheet" href="/assets/roi-calculator.BhMmnShX.css"></head> <body>  <!-- Launch Banner --><div style="
+    background: linear-gradient(90deg, #dc2626 0%, #991b1b 100%);
+    color: #fff;
+    text-align: center;
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+  " data-astro-cid-3ef6ksr2>
+🚀 JUST LAUNCHED • First 100 users get founder pricing FOR LIFE
+</div> <!-- Header --> <header role="banner" style="
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  " data-astro-cid-3ef6ksr2> <div class="container" data-astro-cid-3ef6ksr2> <div class="header-content" data-astro-cid-3ef6ksr2> <div class="logo-section" data-astro-cid-3ef6ksr2> <a href="/" style="text-decoration: none; display: flex; align-items: center" aria-label="FindForce Home" data-astro-cid-3ef6ksr2> <svg role="img" aria-label="FindForce logo" width="150" height="36" viewBox="0 0 150 36" fill="none" data-astro-cid-3ef6ksr2> <rect x="2" y="2" width="32" height="32" rx="8" fill="#2563eb" data-astro-cid-3ef6ksr2></rect> <circle cx="18" cy="18" r="10" fill="#fff" data-astro-cid-3ef6ksr2></circle> <text x="18" y="23" text-anchor="middle" fill="#2563eb" font-family="system-ui" font-size="14" font-weight="700" data-astro-cid-3ef6ksr2>
+@
+</text> <text x="42" y="24" fill="#1a1a1a" font-family="system-ui" font-size="20" font-weight="700" data-astro-cid-3ef6ksr2>
+FindForce
+</text> </svg> </a> <span style="
+            background: #fbbf24;
+            color: #451a03;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 16px;
+          " data-astro-cid-3ef6ksr2>LIVE NOW</span> </div> <nav aria-label="Primary Navigation" class="desktop-nav" data-astro-cid-3ef6ksr2> <a href="/#guarantee" style="
+            color: #4b5563;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+          " data-astro-cid-3ef6ksr2>Our Guarantee</a> <a href="/#pricing" style="
+            color: #4b5563;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+          " data-astro-cid-3ef6ksr2>Pricing</a> <a href="https://chromewebstore.google.com/detail/ilebiijfdkmnnhkngehmiggngoeoenbg?utm_source=website&utm_medium=header&utm_campaign=launch" class="btn-primary" style="font-size: 12px; padding: 8px 16px" target="_blank" rel="noopener" data-astro-cid-3ef6ksr2>
+Install from Chrome Store →
+</a> </nav> <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Toggle mobile menu" aria-expanded="false" data-astro-cid-3ef6ksr2> <span data-astro-cid-3ef6ksr2></span> <span data-astro-cid-3ef6ksr2></span> <span data-astro-cid-3ef6ksr2></span> </button> </div> </div> <div class="mobile-menu" id="mobileMenu" data-astro-cid-3ef6ksr2> <div style="display: flex; flex-direction: column; gap: 20px" data-astro-cid-3ef6ksr2> <a href="#guarantee" style="
+          color: #1a1a1a;
+          text-decoration: none;
+          font-weight: 500;
+          padding: 15px 0;
+          border-bottom: 1px solid #e5e7eb;
+          font-size: 16px;
+        " onclick="closeMobileMenu()" data-astro-cid-3ef6ksr2>Our Guarantee</a> <a href="#pricing" style="
+          color: #1a1a1a;
+          text-decoration: none;
+          font-weight: 500;
+          padding: 15px 0;
+          border-bottom: 1px solid #e5e7eb;
+          font-size: 16px;
+        " onclick="closeMobileMenu()" data-astro-cid-3ef6ksr2>Pricing</a> <a href="https://chromewebstore.google.com/detail/ilebiijfdkmnnhkngehmiggngoeoenbg?utm_source=website&utm_medium=mobile_header&utm_campaign=launch" class="btn-primary" style="margin-top: 10px; font-size: 16px; padding: 14px 20px" onclick="closeMobileMenu();" target="_blank" rel="noopener" data-astro-cid-3ef6ksr2>
+Install from Chrome Store →
+</a> </div> </div> </header> <script>
+  function toggleMobileMenu() {
+    var menu = document.getElementById("mobileMenu");
+    var hamburger = document.querySelector(".hamburger");
+    var isActive = menu.classList.contains("active");
+    menu.classList.toggle("active");
+    hamburger.classList.toggle("active");
+    hamburger.setAttribute("aria-expanded", !isActive);
+  }
+
+  function closeMobileMenu() {
+    var menu = document.getElementById("mobileMenu");
+    var hamburger = document.querySelector(".hamburger");
+    menu.classList.remove("active");
+    hamburger.classList.remove("active");
+    hamburger.setAttribute("aria-expanded", "false");
+  }
+
+  window.toggleMobileMenu = toggleMobileMenu;
+  window.closeMobileMenu = closeMobileMenu;
+
+  document.addEventListener("DOMContentLoaded", function setupMobileMenu() {
+    document.addEventListener("click", function handleOutsideClick(event) {
+      var menu = document.getElementById("mobileMenu");
+      var hamburger = document.querySelector(".hamburger");
+      var isClickInsideMenu = menu && menu.contains(event.target);
+      var isClickOnHamburger = hamburger && hamburger.contains(event.target);
+      if (
+        menu &&
+        !isClickInsideMenu &&
+        !isClickOnHamburger &&
+        menu.classList.contains("active")
+      ) {
+        closeMobileMenu();
+      }
+    });
+  });
+</script>  <section class="roi-calculator-page" data-astro-cid-lt3cfqyf> <div class="container" data-astro-cid-lt3cfqyf> <header class="header" data-astro-cid-lt3cfqyf> <div class="logo" data-astro-cid-lt3cfqyf> <div class="logo-icon" data-astro-cid-lt3cfqyf>@</div> <span class="logo-text" data-astro-cid-lt3cfqyf>FindForce</span> </div> <h1 data-astro-cid-lt3cfqyf>Email Verification ROI Calculator</h1> <p class="subtitle" data-astro-cid-lt3cfqyf>
+Discover how much bad email data costs your sales team. Only 62% of
+          submitted emails are valid.
+</p> </header> <div class="calculator-wrapper" data-astro-cid-lt3cfqyf> <div class="input-section" data-astro-cid-lt3cfqyf> <h2 data-astro-cid-lt3cfqyf>Your Current Situation</h2> <div class="form-group" data-astro-cid-lt3cfqyf> <label for="sdr-count" data-astro-cid-lt3cfqyf>Number of SDRs</label> <input type="number" id="sdr-count" value="10" min="1" max="1000" data-astro-cid-lt3cfqyf> </div> <div class="form-group" data-astro-cid-lt3cfqyf> <label for="sdr-salary" data-astro-cid-lt3cfqyf>Average SDR Monthly Cost ($)</label> <input type="number" id="sdr-salary" value="8000" min="3000" max="20000" data-astro-cid-lt3cfqyf> </div> <div class="form-group" data-astro-cid-lt3cfqyf> <label for="bounce-rate" data-astro-cid-lt3cfqyf>Current Email Bounce Rate</label> <div class="range-wrapper" data-astro-cid-lt3cfqyf> <span class="range-value" id="bounce-rate-value" data-astro-cid-lt3cfqyf>20%</span> <input type="range" id="bounce-rate" value="20" min="5" max="40" step="1" data-astro-cid-lt3cfqyf> </div> </div> <div class="form-group" data-astro-cid-lt3cfqyf> <label for="time-waste" data-astro-cid-lt3cfqyf>Hours Per Week on Bad Data Tasks</label> <div class="range-wrapper" data-astro-cid-lt3cfqyf> <span class="range-value" id="time-waste-value" data-astro-cid-lt3cfqyf>11 hrs</span> <input type="range" id="time-waste" value="11" min="5" max="20" step="1" data-astro-cid-lt3cfqyf> </div> </div> <div class="form-group" data-astro-cid-lt3cfqyf> <label for="contacts-month" data-astro-cid-lt3cfqyf>Contacts Processed Monthly</label> <input type="number" id="contacts-month" value="1000" min="100" max="10000" step="100" data-astro-cid-lt3cfqyf> </div> </div> <div class="results-section" data-astro-cid-lt3cfqyf> <h2 data-astro-cid-lt3cfqyf>Your Potential Savings</h2> <div class="metric" data-astro-cid-lt3cfqyf> <div class="metric-label" data-astro-cid-lt3cfqyf>Monthly Cost of Bad Data</div> <div class="metric-value" id="monthly-cost" data-astro-cid-lt3cfqyf>$21,840</div> <div class="metric-detail" data-astro-cid-lt3cfqyf>Across your entire team</div> </div> <div class="metric" data-astro-cid-lt3cfqyf> <div class="metric-label" data-astro-cid-lt3cfqyf>Annual Revenue at Risk</div> <div class="metric-value" id="revenue-risk" data-astro-cid-lt3cfqyf>$2.0M</div> <div class="metric-detail" data-astro-cid-lt3cfqyf>From poor deliverability</div> </div> <div class="metric" data-astro-cid-lt3cfqyf> <div class="metric-label" data-astro-cid-lt3cfqyf>Time Recovered Monthly</div> <div class="metric-value" id="time-saved" data-astro-cid-lt3cfqyf>440 hrs</div> <div class="metric-detail" data-astro-cid-lt3cfqyf>Equal to 2.75 full-time SDRs</div> </div> <div class="metric" data-astro-cid-lt3cfqyf> <div class="metric-label" data-astro-cid-lt3cfqyf>ROI with Email Verification</div> <div class="metric-value" id="roi" data-astro-cid-lt3cfqyf>12:1</div> <div class="metric-detail" data-astro-cid-lt3cfqyf>
+Payback in <span id="payback" data-astro-cid-lt3cfqyf>3</span> weeks
+</div> </div> </div> </div> <div class="cta-section" data-astro-cid-lt3cfqyf> <h3 data-astro-cid-lt3cfqyf>Ready to Recover Your Team's Lost Productivity?</h3> <p class="cta-description" data-astro-cid-lt3cfqyf>
+Join companies reducing bounce rates by 95% and achieving $750 ROI per
+          dollar spent on verification
+</p> <div id="risk-message" class="risk-message" style="display: none" data-astro-cid-lt3cfqyf> <strong data-astro-cid-lt3cfqyf>⚠️ Critical Risk:</strong> Your bounce rate exceeds
+          Gmail/Yahoo's 0.3% threshold. You're at risk of sender reputation
+          damage and ESP blocking.
+</div> <div id="success-message" class="success-message" style="display: none" data-astro-cid-lt3cfqyf> <strong data-astro-cid-lt3cfqyf>✓ Strong Opportunity:</strong> You could save
+<span id="savings-highlight" data-astro-cid-lt3cfqyf></span> monthly with proper email
+          verification.
+</div> <a href="https://findforce.io?utm_source=roi_calculator&utm_medium=landing_page&utm_campaign=free_trial" class="cta-button" data-astro-cid-lt3cfqyf>Start Free Trial - No Credit Card Required</a> </div> </div> </section> <footer class="footer" data-astro-cid-sz7xmlte> <div class="container" data-astro-cid-sz7xmlte> <p class="copyright" data-astro-cid-sz7xmlte>
+© FindForce by Developer Friendly OÜ. All rights reserved.
+<span class="flag" data-astro-cid-sz7xmlte>🇪🇪</span> </p> <div class="footer-links" data-astro-cid-sz7xmlte> <a href="/terms" class="footer-link" data-astro-cid-sz7xmlte>Terms</a> <a href="/privacy" class="footer-link" data-astro-cid-sz7xmlte>Privacy</a> <a href="/dpa" class="footer-link" data-astro-cid-sz7xmlte>DPA</a> <a href="/cookie-policy" class="footer-link" data-astro-cid-sz7xmlte>Cookie Policy</a> <a href="/security" class="footer-link" data-astro-cid-sz7xmlte>Security</a> <a href="mailto:contact@findforce.io" class="footer-link" data-astro-cid-sz7xmlte>contact@findforce.io</a> <a href="https://www.youtube.com/@findforce" class="footer-link" rel="noopener" target="_blank" data-astro-cid-sz7xmlte>YouTube</a> <a href="https://blog.findforce.io" class="footer-link" rel="noopener" target="_blank" data-astro-cid-sz7xmlte>Medium</a> <a href="https://x.com/meysamazing" class="footer-link" rel="noopener" target="_blank" data-astro-cid-sz7xmlte>X</a> <a href="http://linkedin.com/company/findforce" class="footer-link" rel="noopener" target="_blank" data-astro-cid-sz7xmlte>LinkedIn</a> </div> </div> </footer>   </body></html> <script type="module">function d(){var e=parseInt(document.getElementById("sdr-count").value,10),t=parseInt(document.getElementById("sdr-salary").value,10),n=parseInt(document.getElementById("bounce-rate").value,10),a=parseInt(document.getElementById("time-waste").value,10),o=parseInt(document.getElementById("contacts-month").value,10),v=a*4/160,l=e*t*v,y=675e3,g=y*.65,I=n>2?.169:.05,p=e*g*I,E=e*a*4*.85,h=8,s=o/1e3*h,r=l*.73,B=Math.round(r/s),C=Math.ceil(s/(r/4));document.getElementById("monthly-cost").textContent="$"+Math.round(l).toLocaleString(),document.getElementById("revenue-risk").textContent="$"+(p/1e6).toFixed(1)+"M",document.getElementById("time-saved").textContent=Math.round(E).toLocaleString()+" hrs",document.getElementById("roi").textContent=B+":1",document.getElementById("payback").textContent=C;var i=document.getElementById("risk-message"),u=document.getElementById("success-message");n>2?(i.style.display="block",u.style.display="none"):(i.style.display="none",u.style.display="block",document.getElementById("savings-highlight").textContent="$"+Math.round(r).toLocaleString())}function c(e,t,n){document.getElementById(e).addEventListener("input",function(o){document.getElementById(t).textContent=o.target.value+n,d()})}function m(){c("bounce-rate","bounce-rate-value","%"),c("time-waste","time-waste-value"," hrs"),document.querySelectorAll("input").forEach(function(t){t.addEventListener("input",d)}),d()}document.readyState=="loading"?document.addEventListener("DOMContentLoaded",m):m();</script> 
