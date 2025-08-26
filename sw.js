@@ -1,5 +1,3 @@
-import log from "loglevel";
-
 var CACHE_NAME = "findforce-v1.0.0";
 var STATIC_CACHE = "findforce-static-v1";
 var DYNAMIC_CACHE = "findforce-dynamic-v1";
@@ -54,8 +52,7 @@ self.addEventListener("install", function handleInstall(event) {
       .then(function populateCache(cache) {
         return Promise.allSettled(
           STATIC_ASSETS.map(function cacheAsset(asset) {
-            return cache.add(asset).catch(function handleAssetError(error) {
-              log.error("failed adding cache", error);
+            return cache.add(asset).catch(function handleAssetError() {
               return null;
             });
           })
