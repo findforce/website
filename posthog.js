@@ -42,3 +42,9 @@
     }),
     (e.__SV = 1));
 })(document, window.posthog || []);
+posthog.init("phc_aKxBg1BlwxIx9VjkKhJ4VFttZi6UsxFrdeWsuiwi9Fn", {
+  api_host: "https://eu.i.posthog.com",
+  defaults: "2025-05-24",
+  person_profiles: "identified_only",
+  autocapture: false,
+});
