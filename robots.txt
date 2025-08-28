@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://findforce.io/sitemap-index.xml

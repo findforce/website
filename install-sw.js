@@ -1,10 +1,11 @@
 function registerServiceWorker() {
-  if ("serviceWorker" in navigator) {
+  if (
+    "serviceWorker" in navigator &&
+    navigator.serviceWorker.controller === null
+  ) {
     navigator.serviceWorker
       .register("/sw.js")
       .then(function handleRegistration(registration) {
-        console.log("SW registered:", registration.scope);
-
         registration.addEventListener("updatefound", function handleUpdate() {
           var newWorker = registration.installing;
           if (newWorker) {
@@ -17,23 +18,14 @@ function registerServiceWorker() {
                 ) {
                   showUpdateAvailable();
                 }
-              }
+              },
             );
           }
         });
       })
-      .catch(function handleError(error) {
-        console.log("SW registration failed:", error);
+      .catch(function handleError() {
+        // Silently fail
       });
-
-    navigator.serviceWorker.addEventListener(
-      "message",
-      function handleMessage(event) {
-        if (event.data && event.data.type === "SW_UPDATE_AVAILABLE") {
-          showUpdateAvailable();
-        }
-      }
-    );
   }
 }
 
@@ -61,8 +53,8 @@ function showUpdateAvailable() {
   document.body.insertBefore(updateBanner, document.body.firstChild);
 }
 
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", registerServiceWorker);
-} else {
+if (document.readyState === "complete") {
   registerServiceWorker();
+} else {
+  window.addEventListener("load", registerServiceWorker);
 }
