@@ -118,7 +118,7 @@ Install from Chrome Store →
           ];
 
           window.requestIdleCallback(function idleCallback() {
-            import('./BlogOpeningHook.astro').catch(function handleError() {
+            import('./../../components/BlogOpeningHook.astro').catch(function handleError() {
 
             });
           }, { timeout: 3000 });
