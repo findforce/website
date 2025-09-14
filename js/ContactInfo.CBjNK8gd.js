@@ -1,0 +1,10 @@
+import { a as createComponent, m as maybeRenderHead, d as renderTemplate } from "./astro/server.DeFkX6hJ.js";
+import "kleur/colors";
+import "clsx";
+/* empty css                                */
+const $$ContactInfo = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<div class="contact-info" data-astro-cid-7oabtla5> <h2 data-astro-cid-7oabtla5>Contact Information</h2> <div class="contact-card" data-astro-cid-7oabtla5> <div class="contact-grid" data-astro-cid-7oabtla5> <div class="contact-item" data-astro-cid-7oabtla5> <h3 data-astro-cid-7oabtla5>General Support</h3> <a href="mailto:support@findforce.io" class="contact-link" data-astro-cid-7oabtla5>support@findforce.io</a> </div> <div class="contact-item" data-astro-cid-7oabtla5> <h3 data-astro-cid-7oabtla5>Privacy Inquiries</h3> <a href="mailto:privacy@findforce.io" class="contact-link" data-astro-cid-7oabtla5>privacy@findforce.io</a> </div> <div class="contact-item" data-astro-cid-7oabtla5> <h3 data-astro-cid-7oabtla5>Legal Matters</h3> <a href="mailto:legal@findforce.io" class="contact-link" data-astro-cid-7oabtla5>legal@findforce.io</a> </div> <div class="contact-item" data-astro-cid-7oabtla5> <h3 data-astro-cid-7oabtla5>Data Requests</h3> <a href="mailto:privacy@findforce.io" class="contact-link" data-astro-cid-7oabtla5>privacy@findforce.io</a> <p class="contact-note" data-astro-cid-7oabtla5>Subject: "Data Request"</p> </div> </div> <div class="company-info" data-astro-cid-7oabtla5> <h3 data-astro-cid-7oabtla5>Developer Friendly OÜ</h3> <div class="company-details" data-astro-cid-7oabtla5> <p data-astro-cid-7oabtla5><strong data-astro-cid-7oabtla5>Registry Number:</strong> 16511866</p> <p data-astro-cid-7oabtla5><strong data-astro-cid-7oabtla5>Address:</strong> Harju maakond, Tallinn, Kesklinna linnaosa, Kiriku tn 6, 10130</p> <p data-astro-cid-7oabtla5><strong data-astro-cid-7oabtla5>Country:</strong> Estonia 🇪🇪</p> </div> </div> </div> </div> `;
+}, "/home/runner/work/landing-page/landing-page/src/components/ContactInfo.astro", void 0);
+export {
+  $$ContactInfo as $
+};
