@@ -1,7 +1,7 @@
 const contentModules = /* @__PURE__ */ new Map([
+  ["src/content/posts/2025-08-gdpr-compliant-email-finder.mdx", () => import("./2025-08-gdpr-compliant-email-finder.C7GBe0oe.js")],
   ["src/content/posts/2025-09-apollo-eu-alternative.mdx", () => import("./2025-09-apollo-eu-alternative.g4TMHv85.js")],
   ["src/content/changelogs/v0.2.mdx", () => import("./v0.2.CHAAcZNn.js")],
-  ["src/content/posts/2025-08-gdpr-compliant-email-finder.mdx", () => import("./2025-08-gdpr-compliant-email-finder.C7GBe0oe.js")],
   ["src/content/changelogs/v0.3.mdx", () => import("./v0.3.BSp1Zihh.js")],
   ["src/content/changelogs/v0.4.mdx", () => import("./v0.4.EHf59S-E.js")],
   ["src/content/changelogs/v1.mdx", () => import("./v1.LUMyKjE4.js")],
