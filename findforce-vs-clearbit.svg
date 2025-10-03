@@ -1,0 +1,149 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Chain gradient -->
+    <linearGradient id="chainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#868e96;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#495057;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Freedom gradient -->
+    <linearGradient id="freedomGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4c6ef5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7950f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9775fa;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Fade out animation -->
+    <animate id="fadeOut" attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+  </defs>
+
+  <rect width="800" height="400" fill="#f8f9fa"/>
+
+  <!-- Timeline at top -->
+  <g transform="translate(400, 60)">
+    <line x1="-300" y1="0" x2="300" y2="0" stroke="#dee2e6" stroke-width="2"/>
+
+    <!-- Timeline markers -->
+    <circle cx="-200" cy="0" r="8" fill="#51cf66"/>
+    <text x="-200" y="-15" text-anchor="middle" font-family="system-ui" font-size="10" fill="#495057">2016</text>
+    <text x="-200" y="25" text-anchor="middle" font-family="system-ui" font-size="9" fill="#868e96">Independent</text>
+
+    <circle cx="0" cy="0" r="8" fill="#fab005"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="system-ui" font-size="10" fill="#495057">Dec 2023</text>
+    <text x="0" y="25" text-anchor="middle" font-family="system-ui" font-size="9" fill="#868e96">Acquired</text>
+
+    <circle cx="200" cy="0" r="8" fill="#ff6b6b"/>
+    <text x="200" y="-15" text-anchor="middle" font-family="system-ui" font-size="10" fill="#495057">Jan 2025</text>
+    <text x="200" y="25" text-anchor="middle" font-family="system-ui" font-size="9" fill="#868e96">Killed</text>
+  </g>
+
+  <!-- Clearbit/Breeze Side - Locked -->
+  <g transform="translate(200, 230)">
+    <!-- Prison box -->
+    <rect x="-100" y="-100" width="200" height="200" rx="10" fill="#ffffff" stroke="#495057" stroke-width="2" stroke-dasharray="10,5" opacity="0.7"/>
+
+    <!-- HubSpot prison bars -->
+    <line x1="-80" y1="-100" x2="-80" y2="100" stroke="url(#chainGrad)" stroke-width="8" opacity="0.6"/>
+    <line x1="-50" y1="-100" x2="-50" y2="100" stroke="url(#chainGrad)" stroke-width="8" opacity="0.6"/>
+    <line x1="-20" y1="-100" x2="-20" y2="100" stroke="url(#chainGrad)" stroke-width="8" opacity="0.6"/>
+    <line x1="10" y1="-100" x2="10" y2="100" stroke="url(#chainGrad)" stroke-width="8" opacity="0.6"/>
+    <line x1="40" y1="-100" x2="40" y2="100" stroke="url(#chainGrad)" stroke-width="8" opacity="0.6"/>
+    <line x1="70" y1="-100" x2="70" y2="100" stroke="url(#chainGrad)" stroke-width="8" opacity="0.6"/>
+
+    <!-- Clearbit ghost (fading) -->
+    <g opacity="0.5">
+      <rect x="-60" y="-60" width="120" height="80" rx="8" fill="#f1f3f5" stroke="#dee2e6" stroke-width="1">
+        <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="-35" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="600" fill="#868e96">Clearbit</text>
+      <text x="0" y="-20" text-anchor="middle" font-family="system-ui" font-size="10" fill="#adb5bd">(discontinued)</text>
+
+      <!-- RIP Chrome extension -->
+      <text x="0" y="5" text-anchor="middle" font-size="20" opacity="0.3">🪦</text>
+      <text x="0" y="25" text-anchor="middle" font-family="system-ui" font-size="9" fill="#adb5bd">Chrome Extension</text>
+      <text x="0" y="37" text-anchor="middle" font-family="system-ui" font-size="8" fill="#ced4da">2016 - 2025</text>
+    </g>
+
+    <!-- HubSpot lock -->
+    <g transform="translate(0, 60)">
+      <rect x="-30" y="-15" width="60" height="40" rx="5" fill="#ff6f47"/>
+      <circle cx="0" cy="-15" r="20" fill="none" stroke="#ff6f47" stroke-width="5"/>
+      <text x="0" y="8" text-anchor="middle" font-family="system-ui" font-size="10" fill="white" font-weight="600">HubSpot</text>
+    </g>
+
+    <!-- Price tag -->
+    <g transform="translate(80, -80)">
+      <path d="M 0 0 L 30 0 L 35 5 L 35 15 L 30 20 L 0 20 Z" fill="#ff6b6b"/>
+      <circle cx="8" cy="10" r="2" fill="white"/>
+      <text x="20" y="14" text-anchor="middle" font-family="system-ui" font-size="8" fill="white" font-weight="600">$800+</text>
+    </g>
+  </g>
+
+  <!-- VS -->
+  <g transform="translate(400, 230)">
+    <circle cx="0" cy="0" r="25" fill="#ffffff" stroke="#dee2e6" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="700" fill="#495057">VS</text>
+  </g>
+
+  <!-- FindForce Side - Free -->
+  <g transform="translate(600, 230)">
+    <!-- Freedom container -->
+    <rect x="-100" y="-100" width="200" height="200" rx="10" fill="#ffffff" stroke="url(#freedomGrad)" stroke-width="2"/>
+
+    <!-- Flying bird (freedom) -->
+    <g transform="translate(0, -70)">
+      <path d="M -30 0 Q -20 -10 0 -5 Q 20 -10 30 0 Q 20 -5 0 0 Q -20 -5 -30 0"
+            fill="none" stroke="#4c6ef5" stroke-width="2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="0,0;5,-5;0,0" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- FindForce logo -->
+    <g transform="translate(0, -20)">
+      <ellipse cx="0" cy="0" rx="45" ry="17.5" fill="#f0f5ff" stroke="#4c6ef5" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="600" fill="#364fc7">FindForce</text>
+    </g>
+
+    <!-- Independence badges -->
+    <g transform="translate(-60, 30)">
+      <rect x="-15" y="-10" width="30" height="20" rx="10" fill="#e6fcf5"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12">✓</text>
+      <text x="0" y="25" text-anchor="middle" font-family="system-ui" font-size="8" fill="#495057">Any CRM</text>
+    </g>
+
+    <g transform="translate(0, 30)">
+      <rect x="-15" y="-10" width="30" height="20" rx="10" fill="#e6fcf5"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12">✓</text>
+      <text x="0" y="25" text-anchor="middle" font-family="system-ui" font-size="8" fill="#495057">Chrome Ext</text>
+    </g>
+
+    <g transform="translate(60, 30)">
+      <rect x="-15" y="-10" width="30" height="20" rx="10" fill="#e6fcf5"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12">✓</text>
+      <text x="0" y="25" text-anchor="middle" font-family="system-ui" font-size="8" fill="#495057">$49/mo</text>
+    </g>
+
+    <!-- Independence promise -->
+    <rect x="-80" y="65" width="160" height="25" rx="12" fill="url(#freedomGrad)"/>
+    <text x="0" y="82" text-anchor="middle" font-family="system-ui" font-size="11" fill="white" font-weight="600">Forever Independent</text>
+
+    <!-- Stars of freedom -->
+    <text x="-80" y="-70" font-size="16" opacity="0.7">⭐
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="80" y="-70" font-size="16" opacity="0.7">⭐
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="#212529">Platform Prison vs Independent Freedom</text>
+
+  <!-- Bottom message -->
+  <g transform="translate(400, 370)">
+    <text x="0" y="0" text-anchor="middle" font-family="system-ui" font-size="13" fill="#495057">
+      <tspan x="0" dy="0">Clearbit: Sold out. Locked in. Extension killed.</tspan>
+      <tspan x="0" dy="18" font-weight="600" fill="#4c6ef5">FindForce: Independent. Accessible. Chrome extension forever.</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="128" height="128" rx="32" fill="url(#iconGradient)" />
+  <circle cx="64" cy="64" r="29" fill="white" />
+  <text x="64" y="80" text-anchor="middle" fill="#2563eb" font-family="Inter, Arial, sans-serif"
+    font-size="43" font-weight="700">@</text>
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6" />
+      <stop offset="50%" style="stop-color:#2563eb" />
+      <stop offset="100%" style="stop-color:#1d4ed8" />
+    </linearGradient>
+  </defs>
+</svg>
