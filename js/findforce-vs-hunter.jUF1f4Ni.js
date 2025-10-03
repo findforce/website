@@ -1,6 +1,6 @@
 import { n as createVNode, F as Fragment, _ as __astro_tag_component__ } from "./astro/server.CL5zRllf.js";
 import { $ as $$CostComparisonWidget } from "./CostComparisonWidget.CIHlKwW-.js";
-import { $ as $$ROICalculator } from "./ROICalculator.DqfeiiNe.js";
+import { $ as $$ROICalculator } from "./ROICalculator.HzsPDs-2.js";
 import "./CTAButton.C6360RJv.js";
 import { $ as $$InlineCTA } from "./InlineCTA.apH50EGw.js";
 import "clsx";

@@ -1,5 +1,5 @@
 async function getMod() {
-  return import("./findforce-vs-apollo.CGqKdfwJ.js");
+  return import("./findforce-vs-apollo.CcwzFWfE.js");
 }
 const collectedLinks = [];
 const collectedStyles = [];

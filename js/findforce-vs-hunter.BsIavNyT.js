@@ -1,5 +1,5 @@
 async function getMod() {
-  return import("./findforce-vs-hunter.zZ17eUpF.js");
+  return import("./findforce-vs-hunter.jUF1f4Ni.js");
 }
 const collectedLinks = [];
 const collectedStyles = [];
