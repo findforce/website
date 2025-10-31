@@ -2,7 +2,6 @@ import { c as createAstro, a as createComponent, m as maybeRenderHead, e as addA
 import "kleur/colors";
 import "clsx";
 /* empty css                                   */
-import { C as CAP_BASE_URL, a as CAP_SITE_KEY } from "./config.B_2gBotP.js";
 const $$Astro$1 = createAstro("https://findforce.io");
 const $$StatsGrid = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
@@ -12,6 +11,9 @@ const $$StatsGrid = createComponent(($$result, $$props, $$slots) => {
     return renderTemplate`<div class="stat-card" data-astro-cid-ddlbua6v> <div class="stat-value"${addAttribute(stat.color ? `color: ${stat.color};` : void 0, "style")} data-astro-cid-ddlbua6v> ${stat.value} </div> <div class="stat-label" data-astro-cid-ddlbua6v> ${stat.label} </div> </div>`;
   })} </div> `;
 }, "/home/runner/work/landing-page/landing-page/src/components/StatsGrid.astro", void 0);
+var API_URL = "https://api.findforce.io";
+var CAP_BASE_URL = "https://cap.findforce.io";
+var CAP_SITE_KEY = "05eac8212f";
 var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
 var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(cooked.slice()) }));
@@ -36,5 +38,6 @@ const $$FormLayout = createComponent(($$result, $$props, $$slots) => {
 }, "/home/runner/work/landing-page/landing-page/src/components/FormLayout.astro", void 0);
 export {
   $$StatsGrid as $,
+  API_URL as A,
   $$FormLayout as a
 };
