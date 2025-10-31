@@ -1,159 +1,19 @@
-<svg viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
-  <!-- Definitions -->
-  <defs>
-    <!-- Brand gradient -->
-    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2563eb" />
-      <stop offset="100%" style="stop-color:#1d4ed8" />
-    </linearGradient>
-
-    <!-- Background gradient -->
-    <radialGradient id="bgGradient" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" style="stop-color:#f0f9ff" />
-      <stop offset="100%" style="stop-color:#dbeafe" />
-    </radialGradient>
-
-    <!-- Success gradient -->
-    <linearGradient id="successGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#22c55e" />
-      <stop offset="100%" style="stop-color:#16a34a" />
-    </linearGradient>
-
-    <!-- Warning gradient -->
-    <linearGradient id="warningGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ef4444" />
-      <stop offset="100%" style="stop-color:#dc2626" />
-    </linearGradient>
-
-    <!-- EU gradient -->
-    <linearGradient id="euGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#003399" />
-      <stop offset="100%" style="stop-color:#0052cc" />
-    </linearGradient>
-
-    <!-- Shadow filter -->
-    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.15" />
-    </filter>
-
-    <!-- FindForce logo gradient (matching favicon) -->
-    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6" />
-      <stop offset="50%" style="stop-color:#2563eb" />
-      <stop offset="100%" style="stop-color:#1d4ed8" />
-    </linearGradient>
-  </defs>
-
-  <!-- Background -->
-  <rect width="1080" height="1080" fill="url(#bgGradient)" />
-
-  <!-- EU circle pattern in background -->
-  <g opacity="0.1">
-    <circle cx="540" cy="540" r="400" fill="none" stroke="#003399" stroke-width="2" />
-    <circle cx="540" cy="540" r="350" fill="none" stroke="#003399" stroke-width="1" />
-    <circle cx="540" cy="540" r="300" fill="none" stroke="#003399" stroke-width="1" />
-  </g>
-
-  <!-- Top header -->
-  <rect x="0" y="0" width="1080" height="160" fill="url(#euGradient)" />
-
-  <!-- EU stars in header -->
-  <g id="eu-stars" transform="translate(540, 110)">
-    <g fill="#FFCC00">
-      <polygon points="0,-15 4,-5 13,-4 7,3 8,12 0,8 -8,12 -7,3 -13,-4 -4,-5"
-        transform="translate(-60, 0) scale(1.2)" />
-      <polygon points="0,-15 4,-5 13,-4 7,3 8,12 0,8 -8,12 -7,3 -13,-4 -4,-5"
-        transform="translate(-30, 0) scale(1.2)" />
-      <polygon points="0,-15 4,-5 13,-4 7,3 8,12 0,8 -8,12 -7,3 -13,-4 -4,-5"
-        transform="translate(0, 0) scale(1.2)" />
-      <polygon points="0,-15 4,-5 13,-4 7,3 8,12 0,8 -8,12 -7,3 -13,-4 -4,-5"
-        transform="translate(30, 0) scale(1.2)" />
-      <polygon points="0,-15 4,-5 13,-4 7,3 8,12 0,8 -8,12 -7,3 -13,-4 -4,-5"
-        transform="translate(60, 0) scale(1.2)" />
-    </g>
-  </g>
-
-  <!-- Main title -->
-  <text x="540" y="40" text-anchor="middle" fill="white"
-    font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080"><defs><linearGradient id="e" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" style="stop-color:#2563eb"/><stop offset="100%" style="stop-color:#1d4ed8"/></linearGradient><linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" style="stop-color:#22c55e"/><stop offset="100%" style="stop-color:#16a34a"/></linearGradient><linearGradient id="d" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" style="stop-color:#ef4444"/><stop offset="100%" style="stop-color:#dc2626"/></linearGradient><linearGradient id="b" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" style="stop-color:#039"/><stop offset="100%" style="stop-color:#0052cc"/></linearGradient><linearGradient id="f" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" style="stop-color:#3b82f6"/><stop offset="50%" style="stop-color:#2563eb"/><stop offset="100%" style="stop-color:#1d4ed8"/></linearGradient><radialGradient id="a" cx="50%" cy="50%" r="70%"><stop offset="0%" style="stop-color:#f0f9ff"/><stop offset="100%" style="stop-color:#dbeafe"/></radialGradient><filter id="c" width="200%" height="200%" x="-50%" y="-50%"><feDropShadow dx="0" dy="8" flood-opacity=".15" stdDeviation="12"/></filter></defs><path fill="url(#a)" d="M0 0h1080v1080H0z"/><g fill="none" stroke="#039" opacity=".1"><circle cx="540" cy="540" r="400" stroke-width="2"/><circle cx="540" cy="540" r="350"/><circle cx="540" cy="540" r="300"/></g><path fill="url(#b)" d="M0 0h1080v160H0z"/><g fill="#FC0"><path d="m480 92 4.8 12 10.8 1.2-7.2 8.4 1.2 10.8-9.6-4.8-9.6 4.8 1.2-10.8-7.2-8.4 10.8-1.2z"/><path d="m510 92 4.8 12 10.8 1.2-7.2 8.4 1.2 10.8-9.6-4.8-9.6 4.8 1.2-10.8-7.2-8.4 10.8-1.2z"/><path d="m540 92 4.8 12 10.8 1.2-7.2 8.4 1.2 10.8-9.6-4.8-9.6 4.8 1.2-10.8-7.2-8.4 10.8-1.2z"/><path d="m570 92 4.8 12 10.8 1.2-7.2 8.4 1.2 10.8-9.6-4.8-9.6 4.8 1.2-10.8-7.2-8.4 10.8-1.2z"/><path d="m600 92 4.8 12 10.8 1.2-7.2 8.4 1.2 10.8-9.6-4.8-9.6 4.8 1.2-10.8-7.2-8.4 10.8-1.2z"/></g><text x="540" y="40" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" text-anchor="middle">
     The Best Apollo.io Alternative
-  </text>
-  <text x="540" y="80" text-anchor="middle" fill="white"
-    font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600"
-    opacity="0.95">
+  </text><text x="540" y="80" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" opacity=".95" text-anchor="middle">
     for European Companies
-  </text>
-  <text x="540" y="150" text-anchor="middle" fill="#FFCC00"
-    font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500">
+  </text><text x="540" y="150" fill="#FC0" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" text-anchor="middle">
     73% are switching in 2025
-  </text>
-
-  <!-- Apollo card (top) -->
-  <rect x="90" y="200" width="900" height="340" rx="20" fill="white" filter="url(#shadow)" />
-  <rect x="90" y="200" width="900" height="70" rx="20" fill="url(#warningGradient)" />
-
-  <text x="540" y="245" text-anchor="middle" fill="white"
-    font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700">
+  </text><rect width="900" height="340" x="90" y="200" fill="#fff" filter="url(#c)" rx="20"/><rect width="900" height="70" x="90" y="200" fill="url(#d)" rx="20"/><text x="540" y="245" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" text-anchor="middle">
     ❌ Apollo.io Problems
-  </text>
-
-  <!-- Apollo problems list -->
-  <g fill="#374151" font-family="system-ui, -apple-system, sans-serif" font-size="24">
-    <text x="140" y="320">🚫 LinkedIn banned (March 2025)</text>
-    <text x="140" y="360">🚫 Sold data to 170 companies</text>
-    <text x="140" y="400">🚫 3-week support response</text>
-    <text x="140" y="440">🚫 €7,540/year hidden costs</text>
-    <text x="140" y="480">🚫 60% accuracy for EU data</text>
-  </g>
-
-  <!-- FindForce card (bottom) -->
-  <rect x="90" y="580" width="900" height="340" rx="20" fill="white" filter="url(#shadow)" />
-  <rect x="90" y="580" width="900" height="70" rx="20" fill="url(#brandGradient)" />
-
-  <!-- FindForce logo in header -->
-  <g transform="translate(440, 595)">
-    <rect x="0" y="0" width="50" height="50" rx="14" fill="url(#logoGradient)" />
-    <circle cx="25" cy="25" r="18" fill="white" />
-    <text x="25" y="34" text-anchor="middle" fill="#2563eb"
-      font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">@</text>
-  </g>
-  <text x="510" y="630" text-anchor="start" fill="white"
-    font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700">
+  </text><g fill="#374151" font-family="system-ui, -apple-system, sans-serif" font-size="24"><text x="140" y="320">🚫 LinkedIn banned (March 2025)</text><text x="140" y="360">🚫 Sold data to 170 companies</text><text x="140" y="400">🚫 3-week support response</text><text x="140" y="440">🚫 €7,540/year hidden costs</text><text x="140" y="480">🚫 60% accuracy for EU data</text></g><rect width="900" height="340" x="90" y="580" fill="#fff" filter="url(#c)" rx="20"/><rect width="900" height="70" x="90" y="580" fill="url(#e)" rx="20"/><g transform="translate(440 595)"><rect width="50" height="50" fill="url(#f)" rx="14"/><circle cx="25" cy="25" r="18" fill="#fff"/><text x="25" y="34" fill="#2563eb" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">@</text></g><text x="510" y="630" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700">
     FindForce
-  </text>
-
-  <!-- FindForce benefits list -->
-  <g fill="#059669" font-family="system-ui, -apple-system, sans-serif" font-size="24"
-    font-weight="600">
-    <text x="140" y="700">✅ 100% GDPR compliant</text>
-    <text x="140" y="740">✅ EU-only infrastructure</text>
-    <text x="140" y="780">✅ 2-hour support response</text>
-    <text x="140" y="820">✅ €49/month flat rate</text>
-    <text x="140" y="860">✅ 95% accuracy guaranteed</text>
-  </g>
-
-  <!-- Bottom CTA -->
-  <rect x="240" y="960" width="600" height="70" rx="35" fill="url(#brandGradient)"
-    filter="url(#shadow)" />
-  <text x="540" y="1005" text-anchor="middle" fill="white"
-    font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700">
+  </text><g fill="#059669" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600"><text x="140" y="700">✅ 100% GDPR compliant</text><text x="140" y="740">✅ EU-only infrastructure</text><text x="140" y="780">✅ 2-hour support response</text><text x="140" y="820">✅ €49/month flat rate</text><text x="140" y="860">✅ 95% accuracy guaranteed</text></g><rect width="600" height="70" x="240" y="960" fill="url(#e)" filter="url(#c)" rx="35"/><text x="540" y="1005" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" text-anchor="middle">
     Switch to FindForce Today →
-  </text>
-
-  <!-- Corner badge -->
-  <g transform="translate(940, 940)">
-    <circle r="80" fill="url(#successGradient)" />
-    <text x="0" y="-15" text-anchor="middle" fill="white"
-      font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700">
+  </text><g transform="translate(940 940)"><circle r="80" fill="url(#g)"/><text y="-15" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
       92%
-    </text>
-    <text x="0" y="10" text-anchor="middle" fill="white"
-      font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600">
+    </text><text y="10" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" text-anchor="middle">
       Cost
-    </text>
-    <text x="0" y="30" text-anchor="middle" fill="white"
-      font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600">
+    </text><text y="30" fill="#fff" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" text-anchor="middle">
       Savings
-    </text>
-  </g>
-</svg>
+    </text></g></svg>

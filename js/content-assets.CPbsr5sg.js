@@ -1,4 +1,1 @@
-const contentAssets = /* @__PURE__ */ new Map();
-export {
-  contentAssets as default
-};
+const contentAssets=new Map;export{contentAssets as default};
