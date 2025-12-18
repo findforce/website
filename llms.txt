@@ -1,0 +1,50 @@
+# FindForce
+
+> Professional email verification Chrome extension with 95% accuracy guarantee
+
+FindForce helps sales teams find and verify business emails in seconds. One-click verification on LinkedIn and other professional networks. Flat rate pricing with unlimited verifications.
+
+## Quick Facts
+
+- Product: Chrome Extension for Email Verification
+- Accuracy: 95% guaranteed (or money back)
+- Pricing: €0/mo (25 free) | €49/mo (unlimited)
+- Target Users: SDRs, Sales Teams, Recruiters, Email Marketers
+- Platform: Chrome Web Store
+- Company: Developer Friendly OÜ (Estonia, EU)
+- GDPR: Fully compliant, EU-hosted (Frankfurt)
+
+## Core Features
+
+- Multi-layer email verification (syntax, DNS/MX, SMTP, pattern matching)
+- One-click verification on LinkedIn profiles
+- Confidence scores (85-99%) for each email
+- CSV export and copy-to-clipboard
+- No credit systems or usage limits on Pro plan
+
+## Main Pages
+
+- Homepage: https://findforce.io/
+- Blog: https://findforce.io/blog
+- Pricing: https://findforce.io/#pricing
+- Competitor Comparisons: https://findforce.io/compare
+- ROI Calculator: https://findforce.io/roi-calculator
+- GDPR Risk Calculator: https://findforce.io/gdpr-risk-calculator
+
+## Legal & Compliance
+
+- Privacy Policy: https://findforce.io/privacy
+- Terms of Service: https://findforce.io/terms
+- Data Processing Agreement: https://findforce.io/dpa
+- Security: https://findforce.io/security
+- Cookie Policy: https://findforce.io/cookie-policy
+
+## Contact
+
+- General: meysam@findforce.io
+- Sales: sales@findforce.io
+- Billing: billing@findforce.io
+
+## Install
+
+Chrome Web Store: https://chromewebstore.google.com/detail/ilebiijfdkmnnhkngehmiggngoeoenbg

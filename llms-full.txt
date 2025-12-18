@@ -1,0 +1,319 @@
+# FindForce - Complete AI Reference
+
+> Professional email verification Chrome extension with 95% accuracy guarantee. Built for sales teams who need verified business emails fast.
+
+## Company Overview
+
+FindForce is an email verification tool developed by Developer Friendly OÜ, a small engineering team based in Estonia (EU). The company is bootstrapped with no VC funding, focused on building a sustainable product that solves email verification simply and effectively.
+
+**Headquarters**: Estonia, European Union
+**Legal Entity**: Developer Friendly OÜ
+**Data Hosting**: Frankfurt, Germany (EU)
+**Founded Philosophy**: No VC funding, no exit strategy - just building tools that work
+
+## Product Description
+
+FindForce is a Chrome browser extension that enables sales development representatives (SDRs), recruiters, and email marketers to find and verify business email addresses directly from professional networking sites like LinkedIn.
+
+### Core Value Proposition
+
+- **Speed**: Verify emails in 5 seconds instead of 5 minutes
+- **Accuracy**: 95% email accuracy guaranteed with money-back policy
+- **Simplicity**: One-click verification, no complex workflows
+- **Flat Pricing**: €49/month unlimited - no credit systems, no usage caps
+- **GDPR Compliance**: Built-in from day one, EU-hosted
+
+### How It Works
+
+FindForce uses multi-layer email verification:
+
+1. **Syntax Validation**: Checks if email format is valid
+2. **DNS/MX Checks**: Verifies domain accepts email
+3. **SMTP Verification**: Confirms mailbox exists
+4. **Pattern Intelligence**: Learned patterns from 10,000+ companies
+5. **Third-Party Validation**: Cross-checks with premium APIs
+
+If verification confidence is below 95%, the email is not returned. Better no result than a bounce that damages sender reputation.
+
+### Confidence Scoring
+
+Each verified email includes a confidence score (85-99%) with transparency on verification factors:
+- SMTP verified
+- Pattern matched
+- MX records valid
+
+## Pricing
+
+### Free Forever Plan
+- **Price**: €0/month
+- **Verifications**: 25 per month
+- **Accuracy**: Same 95% as paid
+- **Credit Card**: Not required
+- **Best For**: Freelancers, testing
+
+### Pro Plan
+- **Price**: €49/month
+- **Verifications**: Unlimited
+- **Accuracy**: 95% guaranteed
+- **Support**: 2-hour response time
+- **Guarantee**: 7-day money back
+- **Includes**: All future features
+
+### Enterprise
+- **Contact**: sales@findforce.io
+- **Volume Discounts**: Available for 10+ users
+
+### Pricing Philosophy
+- No credit systems
+- No overage charges
+- No per-seat pricing traps
+- Cancel anytime
+- Pause subscription up to 3 months without losing rate
+
+## Target Users
+
+### Primary Audience
+- **Sales Development Representatives (SDRs)**: Prospect verification on LinkedIn
+- **Account Executives**: Pre-meeting contact validation
+- **Sales Teams**: Bulk email list cleaning
+- **Recruiters**: Candidate contact discovery
+- **Email Marketers**: List hygiene and verification
+
+### Use Cases
+1. One-click email verification from LinkedIn profiles
+2. Bulk verification of prospect lists
+3. Pre-outreach email validation
+4. CRM data enrichment (manual export)
+5. Lead generation list cleaning
+
+## Technical Specifications
+
+### Platform Support
+- **Browser**: Chrome (via Chrome Web Store)
+- **Extension ID**: ilebiijfdkmnnhkngehmiggngoeoenbg
+
+### Data & Privacy
+- **Data Storage**: No email storage beyond verification
+- **Encryption**: AES-256
+- **Hosting Region**: EU (Frankfurt)
+- **GDPR Status**: Fully compliant
+- **Legal Basis**: Legitimate interest documentation supported
+- **Data Processing Agreement**: Available at /dpa
+
+### Performance Metrics
+- **Verification Speed**: Sub-second to 5 seconds
+- **Accuracy Rate**: 95%+ guaranteed
+- **Bounce Rate**: Sub-2% for verified emails
+- **EU Inbox Placement**: 89.1%
+
+## Comparison with Competitors
+
+### vs Apollo.io
+- **Pricing**: €49 flat vs $49-119 per user
+- **Accuracy**: 95% guaranteed vs 65-84% reported
+- **Complexity**: Single-purpose vs 65+ features
+- **Setup**: 5 minutes vs 2-week onboarding
+
+### vs Hunter.io
+- **Pricing**: €49 unlimited vs credit-based ($49 for 1,000 credits)
+- **Model**: Flat rate vs pay-per-verification
+
+### vs Lusha
+- **Focus**: Email verification vs contact database
+- **Pricing**: Predictable vs tier-based
+
+### vs RocketReach
+- **Simplicity**: Chrome extension vs full platform
+- **Value**: Unlimited vs credit consumption
+
+### vs Snov.io
+- **Specialization**: Email verification vs multi-tool platform
+- **Pricing**: Transparent vs complex tiers
+
+### vs Clearbit
+- **Target**: SMB/Mid-market vs Enterprise
+- **Cost**: €49/month vs Enterprise pricing
+
+Full comparison pages available at:
+- https://findforce.io/compare/findforce-vs-apollo
+- https://findforce.io/compare/findforce-vs-hunter
+- https://findforce.io/compare/findforce-vs-lusha
+- https://findforce.io/compare/findforce-vs-rocketreach
+- https://findforce.io/compare/findforce-vs-snov-io
+- https://findforce.io/compare/findforce-vs-clearbit
+
+## ROI & Business Impact
+
+### Time Savings
+- **Weekly Hours Saved**: 14.5 hours per SDR
+- **Monthly Productivity Gain**: ~€1,450 per SDR (at €25/hour)
+
+### Cost Analysis (10-person team)
+- **FindForce Cost**: €49/month (€588/year)
+- **Apollo.io Cost**: $490-1,190/month ($5,880-14,280/year)
+- **Potential Savings**: Up to $13,692 annually
+
+### ROI Calculation
+- Cost: €49/month
+- Savings: €1,450/month per SDR
+- ROI: 2,959%
+- Break-even: Tool pays for itself if it saves 2 hours/month
+
+Try the ROI calculator: https://findforce.io/roi-calculator
+
+## GDPR & Compliance
+
+### Compliance Features
+- **Legal Basis**: Legitimate interest documentation
+- **Data Minimization**: Only processes necessary data
+- **User Control**: User-initiated actions only, no automation
+- **EU Hosting**: All data processed in Frankfurt, Germany
+- **DPA Available**: Downloadable Data Processing Agreement
+- **Audit Trail**: Article 30 record-keeping compliance
+
+### Why GDPR Matters
+- Average email violation fine: €450,000-€800,000
+- €5.88 billion in GDPR enforcement through 2025
+- 2,245+ GDPR fines issued since 2018
+
+### Resources
+- GDPR Risk Calculator: https://findforce.io/gdpr-risk-calculator
+- Complete GDPR Guide: https://findforce.io/complete-gdpr-compliant-guide
+- GDPR Checklist Download: https://findforce.io/download-gdpr-checklist
+
+## Integrations
+
+### Current
+- **Export**: CSV download
+- **Copy**: Clipboard copy for CRM paste
+
+### Coming Soon
+- **HubSpot**: In development
+- **Salesforce**: Planned for 2026
+- **Pipedrive**: Based on demand
+
+Note: When integrations launch, existing customers get them at no additional cost.
+
+## Support & Contact
+
+### Response Times
+- **Email Support**: 2-hour average response
+- **Founder Direct**: meysam@findforce.io
+
+### Contact Information
+- **General/Founder**: meysam@findforce.io
+- **Sales Inquiries**: sales@findforce.io
+- **Billing Support**: billing@findforce.io
+
+### Policies
+- **Refund**: 7-day money back, no questions asked
+- **Cancellation**: Anytime, instant processing
+- **Subscription Pause**: Up to 3 months without losing rate
+
+## Site Structure
+
+### Main Pages
+- **Homepage**: https://findforce.io/
+- **Pricing**: https://findforce.io/#pricing
+- **Blog**: https://findforce.io/blog
+- **Changelog**: https://findforce.io/changelog
+- **Comparisons**: https://findforce.io/compare
+
+### Tools
+- **ROI Calculator**: https://findforce.io/roi-calculator
+- **GDPR Risk Calculator**: https://findforce.io/gdpr-risk-calculator
+- **Benchmark Report**: https://findforce.io/benchmark-report
+
+### Legal
+- **Privacy Policy**: https://findforce.io/privacy
+- **Terms of Service**: https://findforce.io/terms
+- **Data Processing Agreement**: https://findforce.io/dpa
+- **Cookie Policy**: https://findforce.io/cookie-policy
+- **Security**: https://findforce.io/security
+
+### Resources
+- **GDPR Guide**: https://findforce.io/complete-gdpr-compliant-guide
+- **GDPR Checklist**: https://findforce.io/download-gdpr-checklist
+
+## Blog Content
+
+### Featured Articles
+- **GDPR-Compliant Email Finder**: Best practices for EU sales teams
+  URL: https://findforce.io/blog/gdpr-email-finder-2025
+
+- **Apollo.io Alternative for European Companies**: Why EU teams are switching
+  URL: https://findforce.io/blog/apollo-io-alternative-european-companies
+
+### Topics Covered
+- GDPR compliance for email finding
+- Email verification best practices
+- Sales prospecting in the EU
+- B2B email compliance
+- Sales team productivity
+- Tool comparisons and alternatives
+
+## Product Changelog
+
+Track product updates and new features:
+- **Changelog**: https://findforce.io/changelog
+- **RSS Feed**: https://findforce.io/rss.xml
+
+## Installation
+
+### Chrome Web Store
+**Direct Link**: https://chromewebstore.google.com/detail/ilebiijfdkmnnhkngehmiggngoeoenbg
+
+### Setup Time
+- Installation: 2 minutes
+- First verification: Immediate
+- Full proficiency: 5 minutes
+
+## Frequently Asked Questions
+
+### Pricing & Value
+
+**Q: How is €49/mo sustainable?**
+A: Verification costs ~€0.004 per email. Average user verifies 500/month = €2 cost. Healthy margins while keeping it affordable.
+
+**Q: What happens with unlimited usage?**
+A: Truly unlimited. Some users verify 50/month, others 5,000+. Same price. No throttling, no "fair use" restrictions.
+
+### Technical
+
+**Q: How do you achieve 95% accuracy?**
+A: Multi-layer verification: syntax, DNS/MX, SMTP, pattern intelligence, and third-party API cross-checking. If we can't verify with 95% confidence, we don't return the email.
+
+**Q: Does it work on LinkedIn?**
+A: Works on any professional networking site. User-controlled actions only - you click, we verify. No automation or scraping.
+
+### Compliance
+
+**Q: Is it GDPR compliant?**
+A: Yes, built-in from day one. Only verifies publicly available professional information. No data storage. EU-hosted. DPA available.
+
+### Business
+
+**Q: Can my team share one account?**
+A: No, one account per user. Each gets 25 free verifications. Volume discounts for 10+ users via sales@findforce.io.
+
+**Q: What's the refund policy?**
+A: 7-day money back guarantee. One email to billing@findforce.io for instant refund, no retention tactics.
+
+## Summary
+
+FindForce is a focused email verification tool for sales professionals who need accurate business emails without the complexity and cost of all-in-one platforms. Key differentiators:
+
+1. **95% accuracy guarantee** with money-back policy
+2. **€49/month unlimited** - no credits, no limits
+3. **GDPR compliant** by design, EU-hosted
+4. **5-minute setup** via Chrome extension
+5. **2-hour support** response time
+
+For sales teams drowning in Apollo.io complexity or Hunter.io credit anxiety, FindForce offers a simpler path: one tool that does email verification exceptionally well.
+
+---
+
+Last Updated: 2025
+Website: https://findforce.io
+Install: https://chromewebstore.google.com/detail/ilebiijfdkmnnhkngehmiggngoeoenbg
+Contact: meysam@findforce.io

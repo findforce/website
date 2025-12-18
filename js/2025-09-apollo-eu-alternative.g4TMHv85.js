@@ -1,1 +1,0 @@
-async function getMod(){return import("./2025-09-apollo-eu-alternative.Cj4cHxlt.js")}const collectedLinks=[],collectedStyles=[],defaultMod={__astroPropagation:!0,getMod:getMod,collectedLinks:collectedLinks,collectedStyles:collectedStyles,collectedScripts:[]};export{defaultMod as default};

@@ -1,1 +1,0 @@
-async function getMod(){return import("./findforce-vs-lusha.CH75H0rO.js")}const collectedLinks=[],collectedStyles=[],defaultMod={__astroPropagation:!0,getMod:getMod,collectedLinks:collectedLinks,collectedStyles:collectedStyles,collectedScripts:[]};export{defaultMod as default};
